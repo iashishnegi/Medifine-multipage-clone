@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    outline: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: #F0F4F5;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    margin:20px 70px;
+}
+
+img[alt="logo"]{
+    cursor: pointer;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:50px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    color: #20BC7E;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+main{
+    width:100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap :50px;
+    margin-top: 50px;
+}
+
+.left{
+    width: 50vw;
+    margin-left: 70px;
+    background:transparent;
+}
+
+.left h1{
+    font-size: 70px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    background: transparent;
+
+
+}
+
+.left p{
+    color:#847C93;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 100;
+    background: transparent;
+
+}
+.right{
+    width: 40vw;
+}
+
+.button{
+    background-color: #20BC7E;
+    color: #ffffff;
+    padding: 20px 50px;
+    border-radius: 40px;
+    font-size: 30px;
+    border: none ;
+    cursor: pointer;
+
+}
+.button:hover{
+    background-color: #ffffff ;
+    color:  #20BC7E;
+    padding: 18px 48px;
+    border: 2px solid #20BC7E ;
+
+}
+
+.buttonsection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img[alt="bottomangle"]{
+    position : relative;
+    right: -150px;
+    bottom: 30px;
+}
+
+img[alt="mouse"]{
+    position : relative;
+    right: -50px;
+    top: 20px;
+}
+
+
+img[alt="stethoscope"]{
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    top: 60px;
+    right: 25%;
+    z-index: -1;
+  }
+
+  /* customising right main section */
+
+
+.greenbox,
+.yellowbox {
+  position: absolute;
+  right: 0;
+}
+
+.greenbox {
+  width: 33%;
+  bottom: 20px;
+}
+
+.yellowbox {
+  width: 28%;
+  bottom: 60px;
+  background: transparent;
+  right:-5px;
+
+}
+
+.doctor {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 90%;
+  background: transparent;
+  right:10px;
+}
